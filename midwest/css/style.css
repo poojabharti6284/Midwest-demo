@@ -232,9 +232,9 @@ img.arrow-icon\> {
 }
 
 img.arrow-icon {
-    position: relative;
-    top: 5px;
-    left: 7px;
+    position: absolute;
+    top: 12px;
+    left: 12px;
 }
 
 .cta {
@@ -351,8 +351,9 @@ img.arrow-icon {
     display: flex;
     font-size: 18px;
     font-weight: 700;
-    padding: 11px 38px;
+    padding: 11px 57px 11px 38px;
     align-items: center;
+    position: relative;
 }
 
 .btn-primary:hover {
@@ -369,8 +370,9 @@ img.arrow-icon {
     display: flex;
     font-size: 18px;
     font-weight: 700;
-    padding: 15px 38px;
+    padding: 15px 55px 15px 38px;
     align-items: center;
+    position: relative;
 }
 
 .btn-secondary:hover {
@@ -409,13 +411,20 @@ img.arrow-icon {
 }
 
 .arrow-span {
-    position: relative;
-    left: 11px;
+    /* position: absolute;
     background-color: #fff;
     border-radius: 50%;
     box-shadow: inset 0 0 8px 0 rgba(0, 0, 0, .25);
-    height: 35px;
-    width: 40px;
+    height: 50px;
+    width: 50px; */
+    background-color: #fff;
+    border-radius: 50%;
+    box-shadow: inset 0 0 8px 0 rgba(0, 0, 0, .25);
+    height: 50px;
+    justify-content: center;
+    position: absolute;
+    right: 1px;
+    width: 50px;
 }
 
 /* hero section end */
@@ -509,13 +518,14 @@ img.arrow-icon {
     line-height: 1.2;
     color: white;
     max-width: 400px;
+    margin: 0px;
 }
 
 .num-image {
     position: relative;
     left: 120px;
     height: 200px;
-    top: 60px;
+    top: 20px;
 }
 
 section.manufacturing {
@@ -561,12 +571,12 @@ section.manufacturing {
     max-width: 181px;
     place-items: center;
     width: 26vw;
-    border: solid #f8ae1d;
+    border:  4px solid #f8ae1d;
 }
 
 .rings {
-    font-size: xxx-large;
-    color: white;
+    font-size: 43.647px;
+    font-weight: 100;
 }
 
 .pera {
@@ -612,7 +622,6 @@ section.manufacturing {
     background-color: #f5f5f5;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    padding: 20px;
     width: calc(33.33% - 24px);
     box-sizing: border-box;
 
@@ -626,15 +635,36 @@ section.manufacturing {
 
 .card-title {
     font-size: 22px;
-    margin: 15px 0 10px;
+    margin: 0 0 6.4px;
     text-align: left;
 }
 
 .card-description {
     font-size: 16px;
     color: #33333399;
-    margin-bottom: 15px;
+    margin: 0 0;
     text-align: left;
+}
+
+
+.card-describe {
+    padding: 25px 25px 30px;
+}
+
+a.primary-btn {
+    background: #f8ae1d;
+    border: 1px solid #f8ae1d;
+    border-radius: 100px;
+    color: #000;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 26px;
+    padding: 8px 16px;
+    text-align: center;
+    transition: .2s ease-in-out;
+    position: relative;
+    right: 139px;
 }
 
 /* card section end */
@@ -936,8 +966,9 @@ section.quote-section {
     display: flex;
     font-size: 18px;
     font-weight: 700;
-    padding: 11px 38px;
+    padding: 15px 81px 15px 38px;
     align-items: center;
+    position : relative;
 }
 
 .quote-button:hover {
@@ -1101,11 +1132,12 @@ svg.lucide.lucide-phone-icon.lucide-phone {
     gap: 20px;
 }
 
-.footer-lin {
+.footer-lnk {
     list-style: none;
     display: flex;
     gap: 20px;
     margin: 70px 0 0;
+    padding: 0px;
 } 
 
 .footer-li a {
@@ -1172,6 +1204,7 @@ section.copyright {
 .copyright-content {
     display: flex;
     justify-content: space-between;
+    font-size: 12px;
 }
 
 .copyright-para {
