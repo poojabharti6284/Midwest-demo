@@ -164,8 +164,8 @@ a {
 }
 
 .container {
-    /* margin: 0 auto;
-    max-width: 1720px; */
+    margin: 0 auto;
+    max-width: 1720px;
     padding: 0 20px;
     width: 100%;
     overflow: hidden;
@@ -218,6 +218,12 @@ header {
     width: 100%;
     z-index: 50;
     left: 0;
+}
+
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .dropdown {
@@ -286,12 +292,12 @@ button.dropdown-btn{
     gap: 20px;
 }
 
-img.arrow-icon\> {
+.arrow-icon {
     position: relative;
     left: 14px;
 }
 
-img.arrow-icon {
+.arrow-icon {
     position: absolute;
     top: 12px;
     left: 12px;
@@ -661,7 +667,7 @@ img.hero-iconimg {
     font-weight: 600;
     line-height: 1.2;
     color: white;
-    max-width: 400px;
+    max-width: 410px;
     margin: 0px;
 }
 
@@ -678,10 +684,15 @@ section.manufacturing {
     padding: 60px 0;
 }
 
-.num-container {
+.manufacture {
     display: flex;
     justify-content: space-between;
 }
+
+/* .num-container {
+    display: flex;
+    justify-content: space-between;
+} */
 
 .num-rings {
     align-items: center;
@@ -710,13 +721,13 @@ section.manufacturing {
 }
 
 .ring {
-    aspect-ratio: 1 / 1;
     border-radius: 50%;
     display: grid;
     max-width: 181px;
     place-items: center;
-    width: 26vw;
-    border:  4px solid #f8ae1d;
+    border: 4px solid #f8ae1d;
+    width: 181px;
+    height: 181px;
 }
 
 .rings {
@@ -1279,6 +1290,7 @@ section.quote-section {
 
 .footer-left {
     padding-right: 70px;
+    width: 30%;
 }
 
 .footer-head {
@@ -1451,7 +1463,9 @@ svg.lucide.lucide-youtube-icon.lucide-youtube {
 
 .footer-right {
     display: flex;
+    flex-wrap: wrap;
     gap: 20px;
+    width: 70%;
 }
 
 .footer-content {
@@ -1459,13 +1473,9 @@ svg.lucide.lucide-youtube-icon.lucide-youtube {
     gap: 20px;
 }
 
-
-.footer-content > div:nth-child(3) { flex: 1.3; }
-.footer-content > div:nth-child(4) { flex: 1; }
-.footer-content > div:nth-child(5) { flex: 1.1; }
-/* footer section end */
-
-
+.footer-social {
+    width: calc(25% - 15px);
+}
 
 /* copyright section start */
 
@@ -1481,16 +1491,18 @@ section.copyright {
     font-size: 12px;
 }
 
+
+
 .copyright-para {
     display: flex;
     gap: 12px;
-    justify-content: flex-end;
+    /* justify-content: flex-end; */
     margin: 0;
-    text-align: right;
 }
 
 .copyright-para p {
     margin: 0;
+    font-size: 12px;
 }
 
 .copyright-para p:hover {
@@ -1498,3 +1510,12 @@ section.copyright {
 }
 
 /* copyright section end */
+
+.topnav {
+    width: 100%;
+}
+    .nav-icon {
+        display: none;
+    }
+
+    
