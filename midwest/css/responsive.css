@@ -134,11 +134,11 @@
 
 @media (max-width: 1100px) {
 
-        section.hero-section {
+    section.hero-section {
         padding: 200px 0 40px;
     }
 
-    .hero-subheading{
+    .hero-subheading {
         font-size: 18px;
     }
 
@@ -352,8 +352,8 @@
     }
 
     .hero-image {
-    height: 173px;
-    width: 20%;
+        height: 173px;
+        width: 20%;
     }
 
     .hero-img {
@@ -421,10 +421,10 @@
     }
 
     .process-step {
-    padding: 0px;
-}
+        padding: 0px;
+    }
 
-   
+
 
     .img-pro5 {
         margin: 0 23px 15px 23px;
@@ -479,11 +479,11 @@
         line-height: 1.2;
     }
 
-    .footer-numbers strong{
+    .footer-numbers strong {
         font-size: 24px;
     }
 
-    
+
 
     .footer-lnk {
         margin: 0;
@@ -750,23 +750,23 @@
     }
 
     .btn-primary {
-    min-width: 160px;
-    padding: 15px 50px 15px 25px !important;
+        min-width: 160px;
+        padding: 15px 50px 15px 25px !important;
     }
 
     .arrow-icon {
-    position: absolute;
-    top: 7px;
-    left: 7px;
-}
+        position: absolute;
+        top: 7px;
+        left: 7px;
+    }
 
     span.arrow-span {
-    height: 35px !important;
-    width: 35px !important;
-    position: absolute;
-    right: 7px;
-    bottom: 8px;
-}
+        height: 35px !important;
+        width: 35px !important;
+        position: absolute;
+        right: 7px;
+        bottom: 8px;
+    }
 
     .arrow-span {
         height: 35px !important;
@@ -856,11 +856,11 @@
         width: 100%;
     }
 
-        .sewn-section {
+    .sewn-section {
         padding: 45px 0;
     }
 
-    .process-steps{
+    .process-steps {
         margin: 50px 0;
     }
 
@@ -869,12 +869,12 @@
         justify-content: center;
     }
 
-        .card-section {
+    .card-section {
         padding: 40px 0;
     }
 
 
-    .card-title{
+    .card-title {
         font-size: 18px;
     }
 
@@ -900,7 +900,7 @@
     }
 
     h2.quote-heading {
-    font-size: 28px;
+        font-size: 28px;
     }
 
     .quote-para {
@@ -908,7 +908,7 @@
         font-weight: 400;
     }
 
-    .quote-note{
+    .quote-note {
         margin-top: 30px;
     }
 
@@ -930,7 +930,7 @@
     }
 
     section.footer {
-        padding: 50px 0 0;
+        padding: 50px 0;
     }
 
 
@@ -938,7 +938,7 @@
         font-size: 14px;
     }
 
-    .footer-head{
+    .footer-head {
         padding: 0 10px;
     }
 
@@ -1023,6 +1023,15 @@
         text-align: center;
     }
 
+    .num-rings {
+        gap: 40px;
+    }
+    
+
+    .num {
+        color: #fff;
+    }
+
     .list-item.items {
         font-size: 16px;
         padding: 15px 50px 15px 25px;
@@ -1055,23 +1064,32 @@
         display: block;
     }
 
-        .logo img {
+    .logo img {
         width: 65px;
         height: 40px;
     }
 
-        .menu {
+    .menu {
         width: 24px;
         position: relative;
         top: 10px;
     }
 
+    .midwest-heading h2 {
+        font-size: 28px;
+        display: block;
+    }
+
+    .num-rings {
+        gap: 40px;
+    }
+
     .num {
         color: #fff;
         text-align: center;
-        display: flex;
+        /* display: flex;
         flex-wrap: wrap;
-        justify-content: center;
+        justify-content: center; */
     }
 
     .hero-button {
@@ -1124,7 +1142,7 @@
         padding: 140px 0 40px;
     }
 
-        span.arrow-span {
+    span.arrow-span {
         bottom: 5px;
     }
 
@@ -1357,34 +1375,34 @@
         font-size: 14px;
     }
 
-        .oem-section {
+    .oem-section {
         padding: 45px 0;
     }
 
-    img.oem-image{
+    img.oem-image {
         width: 100%;
     }
 
-        .our-process {
+    .our-process {
         padding: 45px 0;
     }
 
     .primary-btn svg {
-    display: none;
-}
+        display: none;
+    }
 
     .midwest-heading h2 {
         display: block;
     }
 
-        .oem-heading {
+    .oem-heading {
         font-size: 28px;
         width: 294px;
     }
 
     .pera {
-    font-size: 14px;
-}
+        font-size: 14px;
+    }
 
     .footer-left {
         width: 100%;
