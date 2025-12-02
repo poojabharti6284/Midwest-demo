@@ -177,7 +177,6 @@ a {
 }
 
 .btn {
-    /* border: 2px solid transparent; */
     border-radius: 50px;
     display: inline-block;
     font-size: 18px;
@@ -344,6 +343,14 @@ header {
 
 .call:hover svg path {
     fill: black;
+}
+
+.topnav {
+    width: 100%;
+}
+
+.nav-icon {
+    display: none;
 }
 
 .hero-num {
@@ -520,7 +527,7 @@ header {
     justify-content: space-between;
     margin-top: 160px;
     overflow: hidden;
-    padding: 30px;
+    padding: 50px;
 }
 
 .hero-img {
@@ -543,11 +550,11 @@ header {
     background-color: #fff;
     border-radius: 50%;
     box-shadow: inset 0 0 8px 0 rgba(0, 0, 0, .25);
-    height: 52px;
+    height: 50px;
     position: absolute;
-    right: 0px;
+    right: 5px;
     width: 50px;
-    bottom: 0px;
+    bottom: 2px;
 }
 
 .arrow-span:hover {
@@ -626,7 +633,7 @@ header {
 }
 
 .hero-para2 {
-    align-items: center;
+    align-items: end;
     display: flex;
     gap: 10%;
     justify-content: flex-end;
@@ -634,7 +641,7 @@ header {
 }
 
 .hero-numbers {
-    font-size: 50px;
+    font-size: 59.784px;
 }
 
 .hero-number {
@@ -651,8 +658,8 @@ header {
     margin: 0 0 4px;
     width: 89px;
     height: 46px;
+    display: inline;
 }
-
 
 /* textile section end */
 
@@ -681,10 +688,6 @@ header {
     justify-content: space-between;
 }
 
-/* .num-container {
-    display: flex;
-    justify-content: space-between;
-} */
 
 .num-rings {
     align-items: center;
@@ -702,7 +705,7 @@ header {
     text-align: center;
 }
 
-.num li{
+.num li {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -742,7 +745,6 @@ ul.num-rings li {
 }
 
 .pera {
-    /* font-size: 14px; */
     color: white;
     margin: 20px 0 0;
 }
@@ -764,6 +766,7 @@ ul.num-rings li {
 .card-para {
     font-size: 20px;
     margin: 0;
+    line-height: 1.4;
 }
 
 .card-section {
@@ -906,6 +909,7 @@ ul.num-rings li {
     left: 66px;
     position: absolute;
     top: -10px;
+    width: 311px;
 }
 
 
@@ -969,7 +973,7 @@ ul.num-rings li {
     gap: 20px;
 }
 
-.oem-lst1{
+.oem-lst1 {
     color: #fff;
     font-size: 18px;
     line-height: 1.6;
@@ -1035,11 +1039,10 @@ ul.num-rings li {
 }
 
 .sewn-image-section {
-    gap: 25px;
+    gap: 20px;
     display: flex;
     border-radius: 8px;
     height: 100% !important;
-    object-fit: cover;
     width: 63%;
 }
 
@@ -1049,20 +1052,17 @@ ul.num-rings li {
 
 .sewn-img {
     border-radius: 8px;
-    object-fit: cover;
 }
 
 .sewn-img2 {
     border-radius: 8px;
-    object-fit: cover;
-    height: 50%;
+    height: 48%;
     display: inline;
 }
 
 .sewn-img3 {
     border-radius: 8px;
-    object-fit: cover;
-    height: 50%;
+    height: 49%;
     width: 100%;
     display: inline;
 }
@@ -1072,6 +1072,12 @@ ul.num-rings li {
     color: #263745;
     max-width: 670px;
     margin: 0 0 22.4px;
+}
+
+.sewn-button {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
 .oem-ul {
@@ -1503,6 +1509,8 @@ ul.num-rings li {
     width: calc(25% - 15px);
 }
 
+/* footer end */
+
 /* copyright section start */
 
 .copyright {
@@ -1535,11 +1543,3 @@ ul.num-rings li {
 }
 
 /* copyright section end */
-
-.topnav {
-    width: 100%;
-}
-
-.nav-icon {
-    display: none;
-}

@@ -4,6 +4,14 @@
         margin-top: 50px;
     }
 
+    .container {
+        padding: 0 40px;
+    }
+
+    .hero-content h1 {
+        font-size: 45px;
+    }
+
     section.hero-section {
         padding: 240px 0 40px;
     }
@@ -90,11 +98,53 @@
     }
 }
 
+@media (max-width:1440px) {
+    ul.nav-links {
+        font-size: 18px;
+    }
+
+    .midwest-heading h2 {
+        font-size: 35px;
+    }
+
+    .textile-section h2 {
+        font-size: 35px;
+    }
+
+    .process-heading {
+        font-size: 35px;
+    }
+
+    .num-left h2.main {
+        font-size: 35px;
+    }
+
+    .card-heading {
+        font-size: 35px;
+    }
+
+    .oem-heading {
+        font-size: 35px;
+    }
+
+    .sewn-heading {
+        font-size: 35px;
+    }
+
+    .quote-heading {
+        font-size: 35px;
+    }
+}
+
 
 
 @media (max-width:1280px) {
     .num-image {
         display: none;
+    }
+
+    .process-step {
+        padding: 0;
     }
 
     .cta {
@@ -103,7 +153,34 @@
     }
 
     .list-item {
+        font-size: 16px;
+    }
+
+    .list-item.items {
         font-size: 14px;
+    }
+
+    h5.ring {
+        width: 121px !important;
+        height: 121px !important;
+    }
+
+    .pera {
+        font-size: 14px;
+    }
+
+    .manufacture {
+    align-items: center;
+    gap: 2%;
+}
+
+    .num-left {
+    padding: 0;
+    width: 35%;
+    }
+
+    span.rings {
+        font-size: 18px;
     }
 
     .call {
@@ -126,17 +203,30 @@
         text-align: center;
     }
 
+    .process-steps {
+        gap: 15px;
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
     .manufacturing {
-        padding: 80px 0;
+        padding: 60px 0;
     }
 
 }
 
 @media (max-width: 1100px) {
 
+
+    h2 {
+        font-size: 35px;
+    }
+
     section.hero-section {
         padding: 200px 0 40px;
     }
+
+
 
     .hero-subheading {
         font-size: 18px;
@@ -164,7 +254,7 @@
 
     .menu div {
         width: 100%;
-        height: 4px;
+        height: 3px;
         background: #fff;
         margin-bottom: 4px;
         transition: 0.3s ease;
@@ -236,10 +326,6 @@
         padding: 60px 0;
     }
 
-    .container.num-container {
-        padding: 0 40px;
-    }
-
     .rings {
         font-size: 18px;
         margin: 0;
@@ -273,6 +359,10 @@
         left: 0;
         padding: 40px;
     }
+
+    /* .sewn-img2{
+        width: 46%;
+    } */
 
     .list {
         width: 100%;
@@ -324,9 +414,6 @@
         justify-content: center;
     }
 
-    .hero-content h1 {
-        font-size: 29px;
-    }
 
     .hero-content {
         text-align: left;
@@ -397,7 +484,7 @@
     .flag {
         position: absolute;
         width: 40%;
-        left: 48px;
+        left: 66px;
     }
 
     .oem-subheading {
@@ -415,9 +502,9 @@
     }
 
     .process-steps {
-        gap: 15px;
         display: flex;
         flex-wrap: nowrap;
+        gap: 0;
     }
 
     .process-step {
@@ -453,9 +540,9 @@
         flex-wrap: wrap;
     }
 
-    .container.footer-container {
+    /* .container.footer-container {
         padding: 0 40px;
-    }
+    } */
 
     .footer-left {
         padding-right: 49.4265px;
@@ -504,8 +591,17 @@
 
 
 @media (max-width: 1024px) {
+
+    h2 {
+        font-size: 35px;
+    }
+
     .num-rings {
         flex-wrap: wrap;
+    }
+
+    .midwest-heading h2 {
+        font-size: 35px;
     }
 
     .call {
@@ -518,10 +614,7 @@
 
 @media (max-width: 992px) {
 
-    .container {
-        width: 100%;
-        padding: 0 40px;
-    }
+
 
     .arrow-icon {
         position: absolute;
@@ -529,11 +622,18 @@
         left: 13px;
     }
 
+    .container {
+        padding: 0 30px;
+    }
 
     .nav-icon {
         display: block;
     }
 
+        h5.ring {
+        width: 181px !important;
+        height: 181px !important;
+    }
 
     .nav-links.show {
         display: flex;
@@ -613,6 +713,11 @@
 
     .sewn-image-section {
         width: 100%;
+        gap: 10px;
+    }
+
+    .sewn-button{
+        gap: 10px;
     }
 
     .process-steps {
@@ -624,6 +729,10 @@
     .process-step {
         width: calc(33.33% - 27px);
         text-align: -webkit-center;
+    }
+
+    .sewn-img3 {
+    height: 46%;
     }
 
     .footer-content {
@@ -728,7 +837,6 @@
     .num-rings {
         max-width: 100%;
         justify-content: center;
-        gap: 3%;
     }
 
     .hero-heading {
@@ -779,9 +887,13 @@
         left: 5px;
     }
 
+    .num-left{
+        width: 100%;
+    }
+
     .ring {
 
-        height: 150px;
+        height: 150px !important;
         width: 150px !important;
     }
 
@@ -811,7 +923,6 @@
 
     .midwest-heading h2 {
         font-size: 28px;
-        display: flex;
     }
 
     .flag {
@@ -882,6 +993,10 @@
         padding: 40px 0;
     }
 
+    .midwest-heading h2 {
+        font-size: 28px;
+    }
+
 
     .textile {
         display: flex;
@@ -950,13 +1065,21 @@
 
 @media (max-width: 580px) {
 
-    .container {
-        padding: 0 12px;
+    .hero-content h1 {
+        font-size: 29px;
     }
 
     .hero-heading {
         font-size: 29px;
         text-align: center;
+    }
+
+    .hero-numbers {
+        font-size: 30px;
+    }
+
+    .hero-number {
+        font-size: 30px;
     }
 
     .hero-subheading {
@@ -1026,7 +1149,7 @@
     .num-rings {
         gap: 40px;
     }
-    
+
 
     .num {
         color: #fff;
@@ -1060,40 +1183,80 @@
 }
 
 @media (max-width: 450px) {
+
+    .container {
+        padding: 0 20px;
+    }
+
+    .topnav .container {
+        padding: 0 30px;
+    }
+
     .footer-right {
         display: block;
     }
 
     .logo img {
-        width: 65px;
-        height: 40px;
+        width: 78px;
+        height: 48px;
+    }
+
+    section.navbar {
+        padding: 15px 0;
     }
 
     .menu {
-        width: 24px;
+        width: 20px;
         position: relative;
         top: 10px;
     }
 
-    .midwest-heading h2 {
-        font-size: 28px;
-        display: block;
+    .hero-image {
+        width: 57px;
+        height: 54px;
+    }
+
+    .hero-img {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .hero-icon p {
+        font-size: 12px;
+        margin: 6px 0 0;
+    }
+
+    .hero-numbers {
+        font-size: 30px;
+    }
+
+    .hero-number {
+        font-size: 30px;
+    }
+
+    .hero-iconimg {
+        width: 73px;
+        height: 28px;
     }
 
     .num-rings {
         gap: 40px;
     }
 
+    .primary-btn svg {
+        display: none;
+    }
+
     .num {
         color: #fff;
         text-align: center;
-        /* display: flex;
-        flex-wrap: wrap;
-        justify-content: center; */
+    }
+
+    .sewn-img3 {
+    height: 46%;
     }
 
     .hero-button {
-        /* flex-direction: column; */
         gap: 12px;
         margin-top: 40px;
     }
@@ -1132,10 +1295,14 @@
         top: 10px;
     }
 
+    img.oem-image {
+        width: 100%;
+    }
+
 
     .logo img {
-        width: 65px;
-        height: 40px;
+        width: 78px;
+        height: 48px;
     }
 
     .hero-section {
@@ -1391,17 +1558,9 @@
         display: none;
     }
 
-    .midwest-heading h2 {
-        display: block;
-    }
-
     .oem-heading {
         font-size: 28px;
         width: 294px;
-    }
-
-    .pera {
-        font-size: 14px;
     }
 
     .footer-left {
